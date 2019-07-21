@@ -1,4 +1,4 @@
-package net.mahtabalam;
+package net.mahtabalam.tour1;
 
 public class App {
 
