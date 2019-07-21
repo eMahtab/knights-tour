@@ -21,7 +21,7 @@ class KnightTour {
 
 	public void solveKnightTourProblem() {
 		visited[0][0] = 0;
-		// start knight tour from top left corner square (0, 0)
+		// start knight's tour from top left corner square (0, 0)
 		if( solveProblem(1, 0, 0) == false) {
 			System.out.println("No feasible solution found...");
 		}

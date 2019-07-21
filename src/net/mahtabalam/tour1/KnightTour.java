@@ -5,7 +5,7 @@ class KnightTour {
 	private int[][] visited;
 	private int[] xMoves = { 2, 1, -1, -2, -2, -1, 1, 2 };
 	private int[] yMoves = { 1, 2, 2, 1, -1, -2, -2, -1 };
-
+	
 	public KnightTour(int chessBoardSize) {
 		this.BOARD_SIZE = chessBoardSize;
 		this.visited = new int[BOARD_SIZE][BOARD_SIZE];
@@ -20,7 +20,7 @@ class KnightTour {
 
 	public void solveKnightTourProblem() {	
 		visited[0][0] = 0;
-		// start knight tour from top left corner square (0, 0)
+		// start knight's tour from top left corner square (0, 0)
 		if( solveProblem(1, 0, 0)) {
 			printSolution();
 		} else {
@@ -60,7 +60,7 @@ class KnightTour {
 			return true;	
 		}
 	}
-
+	
 	public void printSolution() {
 		for (int i = 0; i < BOARD_SIZE; i++) {
 			for (int j = 0; j < BOARD_SIZE; j++) {
