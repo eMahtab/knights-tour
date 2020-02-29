@@ -2,11 +2,9 @@
 Knight's Tour Problem
 
 
-# Implementation 1 : Whether Knight's Tour is possible or not
+## Implementation 1 : Whether Knight's Tour is possible or not
 
 ```java
-package net.mahtabalam.v1;
-
 class KnightTour {
 	private static final int[] xMoves = { 2, 1, -1, -2, -2, -1, 1, 2 };
 	private static final int[] yMoves = { 1, 2, 2, 1, -1, -2, -2, -1 };
